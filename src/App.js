@@ -23,7 +23,7 @@ function App(){
 
   return (
     <div className="app">
-      <h4 className="title">Date Ranger Picker</h4>
+      <h4 className="title">Date Range Picker</h4>
       <DateRangePicker 
         label="Example 1 (Com rodapé de opções)"
         ranges={ranges} 
