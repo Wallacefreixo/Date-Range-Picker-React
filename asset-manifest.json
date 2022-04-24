@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Date-Range-Picker-React/static/css/main.f98e1dc5.css",
+    "main.js": "/Date-Range-Picker-React/static/js/main.dd7bd88a.js",
+    "index.html": "/Date-Range-Picker-React/index.html",
+    "main.f98e1dc5.css.map": "/Date-Range-Picker-React/static/css/main.f98e1dc5.css.map",
+    "main.dd7bd88a.js.map": "/Date-Range-Picker-React/static/js/main.dd7bd88a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f98e1dc5.css",
+    "static/js/main.dd7bd88a.js"
+  ]
+}
