@@ -3,7 +3,7 @@
 ### Tecnologias:
 
 - React
-- Date Ranger Picker - React Suite
+- Date Range Picker - React Suite
 - SASS
 
 ### Executar cada Microfrontends:
