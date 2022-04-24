@@ -4,7 +4,7 @@
 
 - React
 - Date Range Picker - React Suite
-- SASS
+- Scss
 
 ### Executar cada Microfrontends:
 
