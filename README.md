@@ -1,4 +1,4 @@
-## Date-Range-Picker-React
+## Date Range Picker em React
 
 ### Tecnologias:
 
