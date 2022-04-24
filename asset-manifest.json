@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Date-Range-Picker-React/static/css/main.f98e1dc5.css",
-    "main.js": "/Date-Range-Picker-React/static/js/main.dd7bd88a.js",
+    "main.css": "/Date-Range-Picker-React/static/css/main.b928196c.css",
+    "main.js": "/Date-Range-Picker-React/static/js/main.79d3b8fa.js",
     "index.html": "/Date-Range-Picker-React/index.html",
-    "main.f98e1dc5.css.map": "/Date-Range-Picker-React/static/css/main.f98e1dc5.css.map",
-    "main.dd7bd88a.js.map": "/Date-Range-Picker-React/static/js/main.dd7bd88a.js.map"
+    "main.b928196c.css.map": "/Date-Range-Picker-React/static/css/main.b928196c.css.map",
+    "main.79d3b8fa.js.map": "/Date-Range-Picker-React/static/js/main.79d3b8fa.js.map"
   },
   "entrypoints": [
-    "static/css/main.f98e1dc5.css",
-    "static/js/main.dd7bd88a.js"
+    "static/css/main.b928196c.css",
+    "static/js/main.79d3b8fa.js"
   ]
 }
