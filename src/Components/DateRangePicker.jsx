@@ -1,13 +1,13 @@
 import '../App.scss';
-import DateRangePicker from 'rsuite/DateRangePicker';
+import { DateRangePicker as RsuiteDateRangePicker} from 'rsuite';
 import { useState } from 'react';
 
-export const DateRangerPicker = ({label, placeholder, ranges, disabledDate }) => {
-    const [dates, setDates ] = useState([])
+const DateRangePicker = ({ label, placeholder, ranges, disabledDate }) => {
+    const [dates, setDates] = useState([])
     return (
       <div className="container-datepicker">
         <label className="label-datepicker">{label}</label>
-        <DateRangePicker 
+        <RsuiteDateRangePicker 
           value={dates}
           onChange={(date) => setDates(date)}
           ranges={ranges} 
@@ -20,3 +20,5 @@ export const DateRangerPicker = ({label, placeholder, ranges, disabledDate }) =>
       </div>
     )
 }
+
+export default DateRangePicker

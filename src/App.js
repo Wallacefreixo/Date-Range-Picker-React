@@ -1,10 +1,10 @@
 import './App.scss';
 import 'rsuite/dist/rsuite.min.css';
-import {DateRangerPicker as DateRangerPickerComponent} from './Components/DateRangerPicker';
-import DateRangePicker from 'rsuite/DateRangePicker';
+import DateRangePicker from './Components/DateRangePicker';
+import { DateRangePicker as RsuiteDateRangePicker} from 'rsuite';
 import { startOfDay, endOfDay, addDays, subDays } from 'date-fns';
 
-function App() {
+function App(){
   const ranges = [
     {
         label: 'Últimos 7 dias',
@@ -19,27 +19,27 @@ function App() {
     allowedMaxDays,
     beforeToday,
     allowedRange
-  } = DateRangePicker;
+  } = RsuiteDateRangePicker;
 
   return (
     <div className="app">
       <h4 className="title">Date Ranger Picker</h4>
-      <DateRangerPickerComponent 
+      <DateRangePicker 
         label="Example 1 (Com rodapé de opções)"
         ranges={ranges} 
       />
-      <DateRangerPickerComponent 
+      <DateRangePicker 
         label="Example 2 (Placeholder + Máx 45 dias)"
         placeholder='Selecione duas datas'
         ranges={[]} 
         disabledDate={allowedMaxDays(45)}
       />
-      <DateRangerPickerComponent 
+      <DateRangePicker 
         label="Example 3 (Disabled dias anteriores)"
         ranges={[]} 
         disabledDate={beforeToday()} 
       />
-      <DateRangerPickerComponent 
+      <DateRangePicker 
         label="Example 4 (Mín e Máx date)"
         ranges={[]} 
         disabledDate={allowedRange(startOfDay(subDays(new Date(), 5)), startOfDay(addDays(new Date(), 5)))} 
